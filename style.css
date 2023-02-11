@@ -1,15 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Varela", sans-serif;
+  font-family: "Varela", "sans-serif"!important;
+  
 }
 
 html,
 body {
-  background-color: #a6bb8d !important;
+  background-color: #EAE7B1 !important;
+
 }
 .container-fluid {
   background: green;
@@ -19,18 +19,101 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-.logo {
-  width: 50px;
-  height: 50px;
 
+.logo img {
   position: absolute;
-  top: -50px;
+  top: 1px;
   left: 5px;
+  width: 5vw;
 }
 .nav-link {
   color: black !important;
   font-size: large;
 }
+h3 a {
+  text-decoration: none;
+  color: green!important;
+  
+
+}
+
+h3 a:hover{
+  transition: 0.3s;
+  font-size: xx-large ;
+}
+img:hover{
+  transition: 0.5s ease-in-out; 
+  transform: scale(1.1);
+ 
+}
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #61876E;
+
+}
+
+.mission-values,
+.product-background,
+.team-introduction,
+.customer-testimonials,
+.contact-info {
+  width: 80%;
+  margin-bottom: 50px;
+  text-align: center;
+ 
+}
+.customer-testimonials{
+  background-color:#749d7b!important;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.team-introduction {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-member img {
+  width: 10vw;
+  height: 10vw;
+  /* height: 200px; */
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.customer-testimonials {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
 /* .card.d-flex.justify-content-center.p-4.shadow-lg {
   background-color: #a6bb8d;
 }
