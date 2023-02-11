@@ -10,6 +10,7 @@ html,
 body {
   background-color: #EAE7B1 !important;
 
+
 }
 .container-fluid {
   background: green;
@@ -53,6 +54,7 @@ img:hover{
   font-family: Arial, sans-serif;
   padding: 20px;
   background: #61876E;
+  color: white;
 
 }
 
@@ -101,13 +103,56 @@ p {
 }
 
 .customer-testimonials {
-  background-color: #f2f2f2;
+  background-color:#749d7b;
   padding: 20px;
   border-radius: 10px;
+}
+.faq{
+  
+  opacity: 1.5;
+
+}
+.accordion-button.border-bottom.bg-dark.text-light{
+background-color:rgb(130, 168, 133)!important;
+color: white !important;;
+}
+#form{
+  color: green;
+  border-color: green;
+  opacity: 0.7!important;
 }
 
 
 
+.footer__icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 var(--mb-2);
+
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(138, 192, 138);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
 
 
 
